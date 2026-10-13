@@ -10,14 +10,15 @@
 
 ```
 templates/
-  skill/                         # шаблоны скилла napishi-dokumentaciyu
-  analiticheskaya-podderzhka/    # канон для АП, каталог в .gitignore
-  process/                       # трекер и регламент, каталог в .gitignore
-  produktovaya-analitika/        # каталог в .gitignore
-  operacionnaya-analitika/       # каталог в .gitignore
+  shablon-dokumentirovaniya-kpa.md   # шаблон скилла napishi-dokumentaciyu
+  shablon-opisaniya-otcheta.md       # шаблон скилла для BI-отчётов
+  analiticheskaya-podderzhka/        # канон для АП, каталог в .gitignore
+  process/                           # трекер и регламент, каталог в .gitignore
+  produktovaya-analitika/            # каталог в .gitignore
+  operacionnaya-analitika/           # каталог в .gitignore
 ```
 
-Шаблоны скилла лежат в [`skill/`](skill/). Остальные подкаталоги остаются локальными копиями и перечислены в [`.gitignore`](../.gitignore).
+Шаблоны скилла лежат в корне [`templates/`](./) (`shablon-*.md`). Остальные подкаталоги остаются локальными копиями и перечислены в [`.gitignore`](../.gitignore).
 
 ## Канон для аналитической поддержки
 
@@ -41,13 +42,13 @@ templates/
 
 | Файл | Источник в wiki |
 |------|-----------------|
-| [skill/shablon-dokumentirovaniya-kpa.md](skill/shablon-dokumentirovaniya-kpa.md) | Шаблон документирования задачи КПА. Его читает скилл |
+| [shablon-dokumentirovaniya-kpa.md](shablon-dokumentirovaniya-kpa.md) | Шаблон документирования задачи КПА. Его читает скилл |
 | [produktovaya-analitika/korzina-vygruzka.md](produktovaya-analitika/korzina-vygruzka.md) | Шаблон документирования для Выгрузки (корзина) |
 | [produktovaya-analitika/korzina-ab-test-kartochka.md](produktovaya-analitika/korzina-ab-test-kartochka.md) | Шаблон карточки теста (корзина) |
 | [operacionnaya-analitika/poslednyaya-mila-ad-hoc.md](operacionnaya-analitika/poslednyaya-mila-ad-hoc.md) | Аналитика последней мили, ad-hoc |
 | [operacionnaya-analitika/poslednyaya-mila-otchet.md](operacionnaya-analitika/poslednyaya-mila-otchet.md) | Аналитика последней мили, отчёты |
 | [operacionnaya-analitika/kauzalnye-issledovaniya.md](operacionnaya-analitika/kauzalnye-issledovaniya.md) | Шаблон каузальных исследований |
-| [skill/shablon-opisaniya-otcheta.md](skill/shablon-opisaniya-otcheta.md) | Шаблон описания отчёта (BI). Его читает скилл для разработки нового отчёта и для доработки отчёта. В таблице показателей есть колонка «Дата действия» |
+| [shablon-opisaniya-otcheta.md](shablon-opisaniya-otcheta.md) | Шаблон описания отчёта (BI). Его читает скилл для разработки нового отчёта и для доработки отчёта. В таблице показателей есть колонка «Дата действия» |
 
 ## Именование страниц в wiki (ПА лояльность)
 

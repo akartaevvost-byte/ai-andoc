@@ -1,4 +1,4 @@
-# Локальные копии шаблонов wiki. Скилл читает только templates/skill/.
+# Локальные копии шаблонов wiki. Скилл читает только два файла в корне templates/ (shablon-*.md).
 templates/analiticheskaya-podderzhka/
 templates/operacionnaya-analitika/
 templates/process/
