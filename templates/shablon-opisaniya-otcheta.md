@@ -1,7 +1,5 @@
 # Шаблон описания отчёта (BI)
 
-Источник: https://wiki.yandex.ru/upravlenie-analitiki/bi-analitiki/opisanie-otchetov/shablon-opisanija-otcheta
-
 ## Общая информация
 
 | Блок | Содержание |

@@ -1,7 +1,5 @@
 # Шаблон документирования задачи КПА
 
-Источник: https://wiki.yandex.ru/upravlenie-analitiki/produktovaja-analitika-kpa/e1cb991f8d0e/e58a3ba2ba0b/0d8bd06f3407
-
 ## Ссылка на задачу в трекере
 
 https://tracker.yandex.ru/PA-XXXX
